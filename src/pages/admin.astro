@@ -19,8 +19,8 @@ const config = {
   logo_url: "https://nebulix.unfolding.io/logo.svg",
   local_backend: true,
   backend: {
-   // name: 'github',
-   // repo: '/microlab-dev/borea-s1',
+    name: "github",
+    repo: 'microlab-dev/borea-s1',
   },
   search: true,
   media_folder: "src/assets",
@@ -43,8 +43,10 @@ const config = {
       rel="stylesheet"
       href={`https://unpkg.com/@staticcms/app@^${staticCmsVersion}/dist/main.css`}
     />
-  
-  
+    <script
+      is:inline
+      type="text/javascript"
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <style is:global>
       #cms-root,
