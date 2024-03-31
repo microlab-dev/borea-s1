@@ -22,7 +22,7 @@ const m2dxOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://borea-s1.pages.dev/",
+  site: "https://borea-s1.netlify.app",
   integrations: [
     icon(),
     mdx({}),
